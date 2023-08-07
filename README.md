@@ -12,3 +12,4 @@ Clean node API whit Node.js, Typescropt, TDD, Clean Architecture e SOLID
 • lint-staged (Execute linters contra arquivos git). link: https://www.npmjs.com/package/lint-staged?activeTab=readme
 • jest (Biblioteca p/ testes de unitario/integração). link: https://jestjs.io/pt-BR/
 
+
