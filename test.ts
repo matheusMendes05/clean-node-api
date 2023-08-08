@@ -1,5 +1,3 @@
-function teste (): number {
-  return 1
+function t(): number {
+  return 1;
 }
-
-teste()
