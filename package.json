@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/matheusMendes05/clean-node-api#readme",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "@types/jest": "^29.5.3",
     "@types/node": "^20.4.8",
     "@types/validator": "^13.11.1",
@@ -37,6 +38,7 @@
     "project": "./tsconfig.json"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "eslint-config-standard-with-typescript": "^37.0.0",
     "validator": "^13.11.0"
   }
