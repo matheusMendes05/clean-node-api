@@ -1,9 +1,12 @@
 import { MongoHelper } from '../helpers/mongo-helper';
 import { AccountMongoRepository } from './account';
+import 'dotenv/config';
+
+const uri = process.env.MONGO_URL;
 
 describe('Account Mongo Repository', () => {
   beforeAll(async () => {
-    await MongoHelper.connect('mongodb://root:mongodb@localhost:27017/');
+    if (uri !== undefined) await MongoHelper.connect(uri);
   }, 5000);
 
   afterAll(async () => {
